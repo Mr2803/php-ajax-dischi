@@ -18,7 +18,26 @@
 </head>
 
 <body>
-    <?php printArr($database) ?>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 my_style-col justify-content-center">
+                <img src="img/logospot.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex">
+                <div class="song-global d-flex">
+                    
+
+                        <?php printArr($database) ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

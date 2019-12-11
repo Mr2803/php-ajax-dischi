@@ -2,7 +2,7 @@
  
  /* funzione stampa */
  function printElem($elem){
- echo "<h2>" . $elem["title"] . "</h2>" . $elem["author"];
+ echo "<div class='song' >"."<img src='".$elem["poster"]."'alt=''>"  ."<p>". $elem["title"]. "</p>"."<p>".$elem["author"] . "</p>"."<p>". $elem["year"]. "</p>"."</div>";
  }
 
     function printArr($arr)
