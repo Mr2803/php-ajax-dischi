@@ -44,3 +44,8 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+.song p:nth-child(3){
+    color:#505750 ;
+    font-weight: bold;
+}
