@@ -30,9 +30,7 @@
         <div class="row">
             <div class="col-12 d-flex">
                 <div class="song-global d-flex">
-                    
-
-                        <?php printArr($database) ?>
+                    <?php printArr($database) ?>
                 </div>
             </div>
         </div>
