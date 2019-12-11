@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1E2D3C;
+}
+
+.debug{
+    border:1px solid black;
+}
+
+.my_style-col{
+    background:black;
+    padding:20px;
+}
+
+.my_style-col img{
+    width:30px;
+
+}
+
+.song-global {
+    color:white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.song-global img{
+    width:180px;
+    
+}
+
+.song {
+    width: 250px;
+    background:black;
+    padding:20px;
+    margin:30px;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song p:nth-child(3){
+    color:#505750 ;
+    font-weight: bold;
+}
+
+.width{
+   width:100% !important; 
+}
